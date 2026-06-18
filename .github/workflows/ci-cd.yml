@@ -37,7 +37,7 @@ jobs:
   deploy:
     name: Deploy Application
     needs: test
-    runs-on: [self-hosted, linux, aws]
+    runs-on: [self-hosted, linux]
 
     steps:
       - name: Checkout Repository
